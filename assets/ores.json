@@ -1,5 +1,5 @@
 {
-    "Chnages": [
+    "Changes": [
         {
             "LogName": " Add ore",
             "Action": "EditData",
@@ -19,7 +19,7 @@
                     "Debris": "stone red",
                     "MineSpawns": [
                         {
-                            "Floors": "",
+                            "Floors": "60/120",
                             "SpawnFrequency": 0.5,
                             "Type": "All"
                         }

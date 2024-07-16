@@ -19,7 +19,7 @@
                     "Debris": "stone red",
                     "MineSpawns": [
                         {
-                            "Floors": "80/120",
+                            "Floors": "1/-999",
                             "SpawnFrequency": 0.5,
                             "Type": "All"
                         }
@@ -47,6 +47,56 @@
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_red"
+                    ]
+                }
+            }
+        },{
+            "LogName": " Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_WaterStoneOre": {
+                    "SpriteIndex": 3,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 3,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(0)WaterStone",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "Debris": "stone blue",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999",
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "WaterStone": {
+                    "Name": "Water Stone",
+                    "Price": 750,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Water Stone",
+                    "Description": "A peculiar stone that holds the color of clearest blue.",
+                    "SpriteIndex": 0,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_blue"
                     ]
                 }
             }

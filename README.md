@@ -3,8 +3,8 @@ Info
 
 | Name | Location | Price |
 | ---- | -------- | ----- |
-| Fire Stone | 80-120 | 750 |
-| Water Stone | | 750 |
+| Fire Stone | 1+ | 750 |
+| Water Stone | 1+ | 750 |
 | Thunder Stone | | 750 |
 | Leaf Stone | | 750 |
 | Moon Stone | | 750 |

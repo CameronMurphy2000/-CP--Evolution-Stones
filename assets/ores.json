@@ -93,7 +93,7 @@
                     "ExcludeFromShippingCollection": false,
                     "DisplayName": "Water Stone",
                     "Description": "A peculiar stone that holds the color of clearest blue.",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 2,
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_blue"

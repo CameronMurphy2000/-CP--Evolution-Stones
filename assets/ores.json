@@ -50,7 +50,8 @@
                     ]
                 }
             }
-        },{
+        },
+        {
             "LogName": " Add ore",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
@@ -97,6 +98,57 @@
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_blue"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": " Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_ThunderStoneOre": {
+                    "SpriteIndex": 5,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 3,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(0)ThunderStone",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "Debris": "stone green",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/-999",
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "ThunderStone": {
+                    "Name": "Thunder Stone",
+                    "Price": 750,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Thunder Stone",
+                    "Description": "A peculiar stone with a thunderbolt pattern.",
+                    "SpriteIndex": 4,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_green"
                     ]
                 }
             }

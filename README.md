@@ -1,6 +1,12 @@
 Info
 ====
 
+To Do
+-----
+
+> Fix Art
+> Fix Spawn Rates
+
 | Name | Location | Price |
 | ---- | -------- | ----- |
 | Fire Stone | 1+ | 750 |

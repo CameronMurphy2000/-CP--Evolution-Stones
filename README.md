@@ -4,8 +4,8 @@ Info
 To Do
 -----
 
-> Fix Art
-> Fix Spawn Rates
+> - Fix Art
+> - Fix Spawn Rates
 
 | Name | Location | Price |
 | ---- | -------- | ----- |
